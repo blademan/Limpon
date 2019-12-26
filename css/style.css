@@ -1,0 +1,44 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color:#7581a1;
+}
+h1{
+  font-size: 80px;
+  font-weight: 600;
+  color: #192b59;
+}
+
+.nav-header{
+  font-size: 12px;
+  font-weight: 700;
+  color: #6e7ea9;
+}
+.btn-free{
+  color: #fff;
+  font-weight: 400;
+  background: #1085e4;
+}
+.feature h2{
+  font-weight: 700;
+  font-size: 40px;
+  color: #192b59;
+}
+.feature-title{
+  font-size: 14px;
+  font-weight: 800;
+  color:#1085e4;
+  display: block;
+}
+.feature-item h3{
+  font-size: 20px;
+  font-weight: 600;
+  color:#192b59;
+}
+.feature-item a{
+  color: #1085e4;
+  font-size: 14px;
+  font-weight: 600;
+}
