@@ -1,15 +1,32 @@
+:root {
+  --dark-blue: #192b59;
+}
+:root{
+  --light-blue:#9fa4c6;
+}
+:root{
+  --primary-blue:#1085e4;
+}
+
+*{
+  box-sizing: border-box;
+}
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
   color: #7581a1;
+  margin: 0;
 }
 .d-flex{
   display: flex;
 }
 .j-space-between{
   justify-content: space-between;
+}
+.j-center{
+  justify-content: center;
 }
 
 h1 {
@@ -58,7 +75,7 @@ h1 {
   font-size: 14px;
   font-weight: 600;
 }
-
+/* BTN */
 .btn {
   text-decoration: none;
   border-radius: 30px;
@@ -107,8 +124,8 @@ h1 {
 
 .btn-white {
   font-size: 12px;
-  letter-spacing: 2.5;
-  padding: 20px 40px;
+  letter-spacing: 2.5px;
+  padding: 20px 60px;
   color: #7e8bae;
   background: transparent;
   border: 1px solid #7e8bae;
@@ -121,10 +138,11 @@ h1 {
   border: 1px solid #1085e4;
 
 }
-
+/* Header */
 .hero{
-  padding: 205px 0;
-}
+  padding: 243px 0 330px;
+  
+  }
 
 .hero-btn a+a {
   margin-left: 15px;
@@ -136,7 +154,13 @@ h1 {
 }
 
 .header {
-  padding: 40px 0;
+  padding: 40px 0 0 0;
+
+  background-image: url(../img/hero-bg.png);
+  background-repeat:no-repeat;
+  background-size: cover; 
+  position: relative;
+  
 
 }
 
@@ -165,6 +189,93 @@ h1 {
 .nav-header .btn {
   margin-left: 34px;
 }
+/* Logo Grid */
+.logo-list{
+  padding: 99px 0;
+  list-style: none;
+  align-items: center;
+}
+.logo-grid{
+  background:url(../img/logo-bg.png) no-repeat;
+  background-size: cover;
+  background-color: rgb(43, 100, 185);
+}
 
+/* Plan */
+.plans h2{
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: -2px;
+  color: var(--dark-blue);
+  margin-bottom:93px;
+}
+.plans h2 span{
+  color: var(--primary-blue);
+  font-size: 18px;
+  text-transform: uppercase;
+  display:block;
+  letter-spacing: 3.5px;
+  margin-bottom: 30px;
+}
+.plans strong{
+  color: var(--primary-blue);
+  text-align: center;
+  display: block;
+  margin-bottom: 35px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.plans-item.active strong{
+  color: #fff;
+}
+.plans-item{
+  padding: 90px 0 96px 0;
+  flex-basis: 31.5%;
+  
+  background:#f5faff;
+}
+.plans-item.active{
+  background-color: var(--dark-blue);
+  color: white;
+}
+.plans-item.active h3{  
+  color: white;
+  padding: 0;
+}
+.plans-item:first-child h3{
+  margin-bottom: 35px;
+}
+.plans-item ul{
+  list-style: none;
+  color: #9fa4c6; 
+  padding: 0;
+  font-size: 14px;
+  margin-bottom: 49px;
+}
+.plans-item ul li{
+  padding-bottom: 14px;
 
+}
 
+.plans-item h3 {
+  font-size: 70px;
+  letter-spacing: -1.5px;
+  color:var(--dark-blue);
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.plans-item span {
+  font-size: 20px;
+}
+.plans-item{
+  text-align: center;
+}
+.plans-item .btn-blue{
+  padding: 20px 61px;
+}
+.screen-img{
+  background-image:url(../img/hero-img.png);
+  background-repeat:no-repeat;
+}
