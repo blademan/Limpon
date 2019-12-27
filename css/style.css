@@ -279,3 +279,12 @@ h1 {
   background-image:url(../img/hero-img.png);
   background-repeat:no-repeat;
 }
+.fixed-nav-bar {
+  position: fixed;
+  top: 40;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+
+
+}
