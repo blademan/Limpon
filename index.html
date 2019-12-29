@@ -30,7 +30,8 @@
 <body>
   <!-- Header -->
   <header class="header">
-    <div  class="fixed-nav-bar wrap d-flex j-space-between">
+    <div class="fixed-nav-bar">
+    <div  class="wrap d-flex j-space-between">
     <div class="logo">
       <a href="#">
         <img src="img/Logo.png" alt="Logo">
@@ -48,6 +49,7 @@
       </ul>
      </nav>
     </div>
+  </div>
   <!-- </header> -->
   <!-- Hero -->
   <div class="hero">
@@ -71,53 +73,54 @@
     </ul>
   </div>
   <!-- Features -->
-  <div class="feature grid">
+  <div class="feature grid wrap">
     <div class="feature-title">
-      <h2><span class="feature-title-">Features</span>Best Features Ever Seen</h2>
+      <h2><span>Features</span>Best Features<br> Ever Seen</h2>
     </div>
-    <div class="feature-item">
-      <div class="feature-icon"><img src="img/icon.png" alt=""></div>
+    <div class="feature-item grid-item-1">
+      <div class="grid-icon feature-icon">
+      </div>
       <h3>Well Documented</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ipsam quibusdam inventore, quam expedita animi!
       </p>
       <a href="#">Read More</a>
     </div>
-    <div class="feature-item">
-      <div class="feature-icon"><img src="img/icon.png" alt=""></div>
+    <div class="feature-item grid-item-2">
+      <div class="grid-icon feature-icon-2"></div>
       <h3>Well Documented</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ipsam quibusdam inventore, quam expedita animi!
       </p>
       <a href="#">Read More</a>
     </div>
-    <div class="feature-item">
-      <div class="feature-icon"><img src="img/icon.png" alt=""></div>
+    <div class="feature-item grid-item-3">
+      <div class="grid-icon feature-icon-3"></div>
       <h3>Well Documented</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ipsam quibusdam inventore, quam expedita animi!
       </p>
       <a href="#">Read More</a>
     </div>
-    <div class="feature-item">
-      <div class="feature-icon"><img src="img/icon.png" alt=""></div>
+    <div class="feature-item grid-item-4">
+      <div class="grid-icon feature-icon-4"></div>
       <h3>Well Documented</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ipsam quibusdam inventore, quam expedita animi!
       </p>
       <a href="#">Read More</a>
     </div>
-    <div class="feature-item">
-      <div class="feature-icon"><img src="img/icon.png" alt=""></div>
+    <div class="feature-item grid-item-5">
+      <div class="grid-icon feature-icon-5"></div>
       <h3>Well Documented</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ipsam quibusdam inventore, quam expedita animi!
       </p>
       <a href="#">Read More</a>
     </div>
-    <div class="feature-item">
-      <div class="feature-icon"><img src="img/icon.png" alt=""></div>
+    <div class="feature-item grid-item-6">
+      <div class="grid-icon feature-icon-6"></div>
       <h3>Well Documented</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ipsam quibusdam inventore, quam expedita animi!
       </p>
       <a href="#">Read More</a>
     </div>
-    <div class="feature-description">
+    <div class="feature-description grid-text">
       <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nesciunt reiciendis ab atque magnam minima qui
         doloribus? Voluptates, sequi facere officia magnam nemo vitae assumenda hic quae delectus consequuntur quaerat?
       </P>
@@ -127,17 +130,21 @@
   </div>
   <!-- Subscrible -->
   <div class="subscrible">
-    <div class="subscrible-form">
-      <h2><span class="subscrible-title">Subscrible</span>Signup For A Trail</h2>
-      <p>Create your free account now & get 30 days free trail No credit</p>
-      <input type="email" class="subscrible-form-input" placeholder="Enter your email address">
-      <button type="submit" class="btn btn-blue">Subscrible</button>
+        <div class="wrap d-flex j-space-between align-items-center">
+          <div class="subscrible-form">
+            <h2><span>Subscribe</span>Signup For A Trail</h2>
+            <p>Create your free account now & get 30 days free<br> trail No credit card required</p>
+            <div class="email-wrap">
+              <input type="email" class="subscrible-form-input" placeholder="Enter your email address">
+              <button type="submit" class="btn btn-blue">Subscribe</button>
+            </div>
+          </div>
+          <div class="subscrible-robot">
+            <img src="img/Robot.png" alt="Robot">
+          </div>
+        </div>
     </div>
-    <div class="subscrible-robot">
-      <img src="img/Robot.png" alt="Robot">
-    </div>
-  </div>
-  <!-- Grab Your Software -->
+<!-- Grab Your Software -->
   <div class="software">
     <h2 class="software-title">Grab Your Software With Amazing Features</h2>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque repellendus ad excepturi quisquam nobis labore
@@ -321,7 +328,7 @@
       <li><a href="#" target="_blank"></a></li>
       <li><a href="#" target="_blank"></a></li>
     </ul>
-  </footer>
+  </footer>  
 </body>
 
 </html>
