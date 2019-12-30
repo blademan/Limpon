@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
   <meta charset="UTF-8">
@@ -32,6 +32,7 @@
   <link rel="stylesheet" type="text/css" href="css/jquery.jscrollpane.css" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
@@ -153,7 +154,7 @@
     </div>
 <!-- Grab Your Software -->
   <div class="software">
-    
+    <div class="software-img"></div>
     <div class="software-flex wrap">
       <div class="software-list-wrap">
         <div class="software-icon"></div>        
@@ -165,38 +166,38 @@
           <dd>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio voluptates ex ipsam vero assumenda repellendus
             aliquid reprehenderit? Natus hic dolores delectus sit. Dolor molestiae officia porro quaerat blanditiis possimus
             eaque.</dd>  
-            <hr class="software-hr">  
+        
         <dt>02. Easy To Customize</dt>
         <dd>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet dolorem dicta cupiditate modi voluptatum corrupti
           soluta voluptates ipsum! Quibusdam officia sed veniam sint autem odit aspernatur est error rerum eveniet.</dd>
-          <hr class="software-hr">  
+            
           <dt>01. Clean Design</dt>
           <dd>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio voluptates ex ipsam vero assumenda repellendus
             aliquid reprehenderit? Natus hic dolores delectus sit. Dolor molestiae officia porro quaerat blanditiis possimus
             eaque.</dd>    
-            <hr class="software-hr">  
+              
         <dt>02. Easy To Customize</dt>
         <dd>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet dolorem dicta cupiditate modi voluptatum corrupti
           soluta voluptates ipsum! Quibusdam officia sed veniam sint autem odit aspernatur est error rerum eveniet.</dd>
-          <hr class="software-hr">  
+            
           <dt>01. Clean Design</dt>
           <dd>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio voluptates ex ipsam vero assumenda repellendus
             aliquid reprehenderit? Natus hic dolores delectus sit. Dolor molestiae officia porro quaerat blanditiis possimus
             eaque.</dd> 
-            <hr class="software-hr">     
+                 
         <dt>02. Easy To Customize</dt>
         <dd>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet dolorem dicta cupiditate modi voluptatum corrupti
           soluta voluptates ipsum! Quibusdam officia sed veniam sint autem odit aspernatur est error rerum eveniet.</dd>
-          <hr class="software-hr">  
+            
           <dt>01. Clean Design</dt>
           <dd>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio voluptates ex ipsam vero assumenda repellendus
             aliquid reprehenderit? Natus hic dolores delectus sit. Dolor molestiae officia porro quaerat blanditiis possimus
             eaque.</dd>    
-            <hr class="software-hr">  
+              
         <dt>02. Easy To Customize</dt>
         <dd>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet dolorem dicta cupiditate modi voluptatum corrupti
           soluta voluptates ipsum! Quibusdam officia sed veniam sint autem odit aspernatur est error rerum eveniet.</dd>
-          <hr class="software-hr">  
+            
           <dt>01. Clean Design</dt>
           <dd>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio voluptates ex ipsam vero assumenda repellendus
             aliquid reprehenderit? Natus hic dolores delectus sit. Dolor molestiae officia porro quaerat blanditiis possimus
@@ -210,29 +211,32 @@
   </div>
   <!-- Fun Facts -->
   <div class="facts">
-    <h2>Some Fun Facts About Dashboard</h2>
-    <ul>
-      <li><span class="facts-title">53K</span>Layouts</li>
-      <li><span class="facts-title">53K</span>Layouts</li>
-      <li><span class="facts-title">53K</span>Layouts</li>
-      <li><span class="facts-title">53K</span>Layouts</li>
-    </ul>
+   <div class="wrap">
+      <h2><span>Fun Facts</span>Some Fun Facts<br> About Dashboard</h2>
+      <ul class="facts-list d-flex j-space-between">
+        <li><span class="facts-title">53K</span>Layouts</li>
+        <li><span class="facts-title">10K</span>Projects</li>
+        <li><span class="facts-title">12K</span>Cup coffe</li>
+        <li><span class="facts-title">120</span>Awards</li>
+      </ul>
+    </div>
   </div>
   <!-- Video -->
   <div class="video">
-    <div class="video-app">
-      <h2>Meet With Future Landingpage</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit illo nesciunt nemo obcaecati laboriosam.
-        Laudantium eos nisi maiores fugiat. Animi, non iure. Corrupti assumenda quam nihil. Harum praesentium voluptas
-        repudiandae!</p>
-      <p>Aviable Now</p>
-      <ul>
-        <li><a href="#" target="_blank">Google</a></li>
-        <li><a href="#" target="_blank">Google</a></li>
-      </ul>
+   <div class="wrap">
+      <div class="video-app">
+        <h2>Meet With Future&nbspLandingpage</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit illo nesciunt nemo obcaecati laboriosam.
+          Laudantium eos nisi maiores fugiat. Animi, non iure. Corrupti assumenda quam nihil. Lorem ipsum tu reberto assumenda quam nlakato man </p>
+        <p>Available Now</p>
+        <ul class="video-btn">
+          <li><a class="android" href="#" target="_blank"></a></li>
+          <li><a class="ios" href="#" target="_blank"></a></li>
+        </ul>
+      </div>
     </div>
     <div class="video-intro">
-      <img src="img/play.png" alt="play">
+      <a class="video-play"><img src="img/play.png" alt="play"></a>
     </div>
   </div>
   <!-- Suitable -->
@@ -252,7 +256,7 @@
   <!-- Control -->
   <div class="edit">
     <div class="edit-intro">
-      <img src="img/Edit.png" alt="stat">
+      <img src="img/Edit.png" alt="edit">
     </div>
     <div class="edit-app">
       <h2>Easy To Edit & Very Easily Control</h2>
@@ -347,7 +351,7 @@
   </div>
   <!-- Team -->
   <div class="team">
-    <h2>Our Plans</span>Pricing Plans</h2>
+    <h2><span>Plans</span>Pricing Plans</h2>
     <div class="team-list">
       <div class="team-item">
         <p>founder</p>
@@ -358,10 +362,10 @@
   <!-- submit -->
   <div class="submit">
     <h2>Start Your Free Trail No Need Credit Card.</h2>
-    <form action="">
+    <form action="#">
       <input type="text" placeholder="Enter your name here">
       <input type="email" placeholder="Enter your email here">
-      <textarea name="" id="" cols="30" rows="10" placeholder="Enter your message here"></textarea>
+      <textarea name="textarea" id="text-area" cols="30" rows="10" placeholder="Enter your message here"></textarea>
       <button type="submit" class="btn btn-blue">Submit now</button>
     </form>
   </div>
@@ -381,9 +385,9 @@
   </footer>  
 
 
-  <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+  <script  src="js/jquery.mousewheel.js"></script>
 
-<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+<script  src="js/jquery.jscrollpane.min.js"></script>
 
   <script src="js/js.js"></script>
   
