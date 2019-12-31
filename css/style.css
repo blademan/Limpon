@@ -756,6 +756,8 @@ h1 {
     letter-spacing: normal;
     text-align: left;
     color: #7581a1;
+    margin-bottom: 5px;
+   
 }
 .video-app p+p{
   font-size: 16px;
@@ -766,8 +768,9 @@ h1 {
   letter-spacing: 3.2px;
   text-align: left;
   color: #c4d2dd;
+  margin-top: 0;
   text-transform: uppercase;
-  margin-bottom: -5px;
+  margin-bottom:-10px;
   
 }
 .video li{
@@ -813,7 +816,107 @@ h1 {
 
 .stat{
   background-image:url(../img/stat-bg.png);
+  background-repeat:no-repeat;  
+  padding: 80px 0 135px;
+}
+.edit-app h2,
+.stat-app h2{
+  font-size: 50px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 60px;
+  letter-spacing: -1.5px;
+  text-align: left;
+  color: #192b59;
+}
+.edit-app p,
+.stat-app p{
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 26px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7581a1;  
+}
+
+.stat-app p{
+  margin-bottom: 50px;
+}
+.stat-intro{
+  margin-top: 100px;
+  flex-basis: 46%;
+}
+.stat-app{
+  flex-basis: 54%;
+}
+.stat-app h2{
+ 
+  margin-top:8px;
+  margin-bottom: 25px;
+
+}
+.stat-app btn{
+  margin-top: 80px;
+}
+.stat-app .software-icon{
+  margin-top: 45px;
+}
+.edit-app{
+  flex-basis: 52%;
+  margin-top: 0px;
+}
+.edit-intro{
+  flex-basis: 45%;
+  margin-top: 10px;
+}
+.edit{
+  background-image:url(../img/edit-bg.png);
   background-repeat:no-repeat;
+  background-position: right;
+  padding: 165px 0 50px;
+}
+.edit-app h2{
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.edit-app p{
+  margin-bottom: 50px;
+}
+.edit .btn{
+  padding: 20px 64px;
+}
+/* Page Screen */
+.page-screen{
+  padding: 150px 0 100px;
+}
+.page-screen h2{
+  font-size: 40px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 50px;
+  letter-spacing: -1.2px;
+  text-align: center;
+  color: #192b59;
+  margin-bottom: 70px;
   
-  
+}
+.page-screen-title{
+  font-size: 18px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 60px;
+  letter-spacing: 3.6px;
+  text-align: center;
+  color: #1085e4;
+  text-transform:uppercase;
+  display:block;
+}
+.page-screen img{
+  margin: 0 auto;
+  display: block;
 }
