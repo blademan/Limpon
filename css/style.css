@@ -1077,7 +1077,7 @@ h1 {
   position: relative;
  
   flex-basis: 31.8%;
-  padding: 200px 0 35px;
+  padding: 200px 60px 35px;
   box-shadow: 0px 8px 30px 0 rgba(156, 156, 156, 0.1);
 
   background-color: #ffffff;
@@ -1101,17 +1101,81 @@ h1 {
   text-transform: initial;
   margin-top: 10px;
 }
-.btn-more{
-  margin: 0 auto;
-  display: block;
-  background-image: url(../img/btn-more.png);
+.btn-team{
+  background-color: #f3f3f3;
+  border-radius: 50%;
   width: 50px;
   height: 50px;
-  background-repeat:no-repeat;
-  
+  margin: 0 auto;
+  display: block;
   border:none;
-  background-color: transparent;
+  cursor: pointer;
+}
+.btn-more > span{ 
+  background-image: url(../img/team-btn.png);
+  background-position:-16px -9px;
+  background-repeat:no-repeat;
+  width: 24px;
+  height: 24px;  
+  display: block;
 }
 .btn-more:focus{
   outline: none;
+}
+.btn-more:hover span{ 
+  background-image: url(../img/team-btn.png);
+  background-position:-16px -39px;
+}
+
+
+.btn-team:hover,
+.social-item:hover{
+  background-color:#1a88e1;
+}
+.social-list{
+  list-style: none;
+  padding: 0;
+}
+.social-item{
+  background-color: #f3f3f3;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  display: block;
+  border:none;
+  cursor: pointer;
+}
+
+.btn-fb > span{ 
+  background-image: url(../img/team-btn.png);
+  width: 16px;
+  height: 30px;  
+  display: block;
+  margin: auto;
+  background-position: -51px 3px;
+}
+.btn-tw > span{ 
+  background-image: url(../img/team-btn.png);
+  width: 16px;
+  height: 30px;  
+  display: block;
+  margin: auto;
+  background-position: -71px 3px;
+}
+.btn-be > span{ 
+  background-image: url(../img/team-btn.png);
+  width: 16px;
+  height: 31px;  
+  display: block;
+  margin: auto;
+  background-position: -95px 3px;
+}
+.btn-gd > span{ 
+  background-image: url(../img/team-btn.png);
+  width: 16px;
+  height: 32px;  
+  display: block;
+  margin: auto;
+  background-position: -117px 3px;
 }

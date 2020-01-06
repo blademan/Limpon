@@ -376,19 +376,37 @@
           <img src="img/team-1.png" alt="Ricardo" class="avatar">
           <p>founder</p>
           <p>Ricardo T.Zender</p>
-          <button class="btn-more" type="button"></button>
+          <button id="btn-richard"  class="btn-more btn-team " type="button"><span></span></button>
+          <ul class="social-list d-flex j-space-between btn-richard" style="display:none">
+            <li ><a href="#" class="social-item btn-fb" target="_blank"><span></span></a></li>
+            <li ><a href="#" class="social-item btn-tw" target="_blank"><span></span></a></li>
+            <li ><a href="#" class="social-item btn-be" target="_blank"><span></span></a></li>
+            <li ><a href="#" class="social-item btn-gd" target="_blank"><span></span></a></li>
+          </ul>
         </div>
         <div class="team-item">
-          <img src="img/team-1.png" alt="Ricardo" class="avatar">
+          <img src="img/team-2.png" alt="Anna" class="avatar">
           <p>founder</p>
-          <p>Ricardo T.Zender</p>
-          <button class="btn-more" type="button"></button>
+          <p>Anna Lee</p>
+          <button id="btn-anna" class="btn-more btn-team" type="button"><span></span></button>
+          <ul class="social-list d-flex j-space-between btn-anna"style="display:none">
+            <li ><a href="#" class="social-item btn-fb" target="_blank"><span></span></a></li>
+            <li ><a href="#" class="social-item btn-tw" target="_blank"><span></span></a></li>
+            <li ><a href="#" class="social-item btn-be" target="_blank"><span></span></a></li>
+            <li ><a href="#" class="social-item btn-gd" target="_blank"><span></span></a></li>
+          </ul>
         </div>
         <div class="team-item">
-          <img src="img/team-1.png" alt="Ricardo" class="avatar">
+          <img src="img/team-3.png" alt="Mark" class="avatar">
           <p>founder</p>
-          <p>Ricardo T.Zender</p>
-          <button class="btn-more" type="button"></button>
+          <p>Mark Shining</p>
+          <button id="btn-mark" class="btn-more btn-team" type="button"><span></span></button>
+          <ul class="social-list d-flex j-space-between btn-mark"style="display:none">
+            <li ><a href="#" class="social-item btn-fb" target="_blank"><span></span></a></li>
+            <li ><a href="#" class="social-item btn-tw" target="_blank"><span></span></a></li>
+            <li ><a href="#" class="social-item btn-be" target="_blank"><span></span></a></li>
+            <li ><a href="#" class="social-item btn-gd" target="_blank"><span></span></a></li>
+          </ul>
         </div>
       </div>
     </div>
@@ -417,7 +435,35 @@
     </ul>
     <script src="js/js.js"></script>
   </footer>  
-
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function(){
+      $("#btn-richard").click(function(){
+        $(".btn-richard").fadeToggle();
+        $("#btn-richard").fadeToggle();
+      });    
+    });
+    </script>
+    <script>
+      $(document).ready(function(){
+        $("#btn-anna").click(function(){
+          $(".btn-anna").show();
+          $("#btn-anna").hide();
+        });    
+      });
+      </script>
+      <script>
+        $(document).ready(function(){
+          $("#btn-mark").click(function(){
+            $(".btn-mark").show();
+          $("#btn-mark").hide();
+          });    
+        });
+        </script>
+ 
 
   <script  src="js/jquery.mousewheel.js"></script>
 
