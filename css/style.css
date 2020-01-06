@@ -819,6 +819,22 @@ h1 {
   position: relative;
   padding: 60px 0 100px;
 }
+.video-bg{
+  font-size: 250px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.2;
+  letter-spacing: -9px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.04);
+  position: absolute;
+  left: 37%;
+  transform: translateX(-50%);
+  top:20%;
+
+
+}
 .video-intro{
   position: absolute;
   top: 41px;
